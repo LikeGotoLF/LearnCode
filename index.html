@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <style>
+    li input {
+      display: none;
+    }
+
+    .edit input {
+      display: initial;
+    }
+
+    .edit span {
+      display: none;
+    }
+  </style>
 </head>
+
 <body>
-  <p>change</p>
-  <p>this is a try2</p>
-  <p>try again</p>
+  <ul id="checkList">
+    <li>
+      <span>Apples</span>
+      <input value="Apples">
+    </li>
+    <li>
+      <span>Oranges</span>
+      <input value="Oranges">
+    </li>
+    <li>
+      <span>Others</span>
+      <input value="Others">
+    </li>
+  </ul>
 </body>
+
 </html>
