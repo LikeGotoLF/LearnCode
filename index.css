@@ -1,1 +1,26 @@
-
+.tabs-panel ul {
+  margin: 0;
+  padding: 0;
+}
+.tabs-panel ul li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #999;
+  color: #fff;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+}
+.tabs-panel ul li:hover {
+  background-color: #666;
+}
+.tabs-panel ul li.active {
+  background-color: #666;
+}
+.tabs-panel .panel {
+  display: none;
+  background-color: #c9c9c9;
+  border-radius: 0 0 6px 6px;
+}
+.tabs-panel .panel.active {
+  display: block;
+}
